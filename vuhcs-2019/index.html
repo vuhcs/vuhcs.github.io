@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<!-- testing commit -->
+<head>
+<meta charset="utf-8">
+<title>CVPR 2019 Workshop On Augmented Human: Human-centric Understanding and 2D/3D Synthesis, and the third Look Into Person (LIP) Challenge</title>
+<meta name="description" content="Augmented Human: Human-centric Understanding and 2D/3D Synthesis, and the third Look Into Person (LIP) Challenge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+<!--<meta name="keywords" content="Visual Understanding of Humans in Crowd Scene, lip,LIP, Look Into Person,CVPR,cvpr,cvpr2017,cvpr workshop,XiaoDan Liang,ShenHua Gao,"> -->   
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    
+<!-- Main CSS -->
+<link rel="stylesheet" href="css/main.css">        
+<!-- Fonts -->
+<link rel="stylesheet" href="css/icon/font-awesome.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"> 
+<!-- Linea Basic -->
+<link rel="stylesheet" href="css/icon/lineabasic.css">        
+<!-- Animate.css -->
+<link rel="stylesheet" href="css/animate.min.css">
+<!-- Magnific Popup -->
+<link rel="stylesheet" href="css/magnific-popup.css">
+<!-- style -->
+<link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" href="img/favicon.ico">
+
+<script src="js/vendor/modernizr.js"></script>
+
+
+</head>
+<body id="home" data-spy="scroll" data-offset="50" data-target=".navbar-default">
+
+<!-- Preloader -->
+<div class="preloader">
+  <div class="preloader10">
+    <span></span>
+    <span></span>
+  </div>
+</div>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="row">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a target="_blank" href="http://cvpr2019.thecvf.com/">
+          <img src="img/CVPRLogo2.png" alt="FOLIO LOGO" style=" height:60px;" />
+        </a>
+        <a target="_blank" href="https://vuhcs.github.io/">
+          <img src="img/logo2.png" alt="FOLIO LOGO" />
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+        <ul class="nav navbar-nav navbar-right" style="padding-top:10px;">
+          <li><a href="#home">Home</a></li>
+          <!--<li><a href="#portfolio">Introduction</a></li>-->
+          <li><a href="#acceptedpapers">Accepted Papers</a></li>
+          <li><a href="#winners">Winners</a></li>
+          <li><a href="#poster">Posters</a></li>
+          <!--<li><a href="#papers"><strong>Call for Papers</strong></a></li>-->
+          <!--<li><a href="#challenge"><strong>Challenges</strong></a></li>-->
+          <!--<li><a href="#about">Topics</a></li>-->
+          <li><a href="#blog">Schedule</a></li>
+          <li><a href="#team">Organizers</a></li>
+          <!--<li><a href="#association">Contact</a></li>-->
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#history">History <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="vuhcs-2019/index.html" target="_blank">VUHCS-2019</a></li>
+              <li><a href="vuhcs-2018/index.html" target="_blank">VUHCS-2018</a></li>
+              <li><a href="vuhcs-2017/index.html" target="_blank">VUHCS-2017</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- Header -->
+<header id="revolution-home" class="revolution-home">
+  <div id="rev_slider_490_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="image-hero39" data-source="gallery" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+    <!-- START REVOLUTION SLIDER 5.3.0.2 fullwidth mode -->
+      <div id="rev_slider_490_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.3.0.2">
+    <ul>    <!-- SLIDE  -->
+      <li data-index="rs-1699" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="img/sliders/SaltLake-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+        <!-- MAIN IMAGE -->
+        <img style="max-width:100% ! important;" src="img/sliders/long-beach.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+        <!-- LAYERS -->
+
+        <!-- LAYER NR. 1 -->
+        <div class="tp-caption tp-shape  " 
+           id="slide-1699-layer-10" 
+           data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+           data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" 
+                data-width="full"
+          data-height="full"
+          data-whitespace="nowrap"
+        
+          data-type="shape" 
+          data-basealign="slide" 
+          data-responsive_offset="on" 
+          data-responsive="off"
+          data-frames='[{"from":"opacity:0;","speed":1500,"to":"o:1;","delay":750,"ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"ease":"nothing"}]'
+          data-textAlign="['left','left','left','left']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+
+          style="z-index: 5;text-transform:left;background-color:rgba(0, 0, 0, 0.40);border-color:rgba(0, 0, 0, 0.50);border-width:0px; max-width:100% ! important;"> </div>
+
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption NotGeneric-Title   tp-resizeme" 
+           id="slide-1699-layer-1" 
+           data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+           data-y="['middle','middle','middle','middle']" data-voffset="['0','0','-22','-29']" 
+                data-fontsize="['70','70','70','50']"
+          data-lineheight="['70','70','70','50']"
+          data-width="none"
+          data-height="none"
+          data-whitespace="nowrap"
+     
+          data-type="text" 
+          data-responsive_offset="on" 
+
+          data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;","ease":"Power2.easeInOut"}]'
+          data-textAlign="['center','center','center','center']"
+          data-paddingtop="[10,10,10,10]"
+          data-paddingright="[10,10,10,10]"
+          data-paddingbottom="[10,10,10,10]"
+          data-paddingleft="[10,10,10,10]" style="z-index: 7; text-transform:left;"> Workshop On Augmented Human:<br>
+          Human-centric Understanding  <br>
+          <!--and 2D/3D Synthesis Synthesis, <br>-->
+          <!--and the third Look Into Person (LIP) Challenge-->
+        </div>
+<!-- LAYER NR. 4 -->
+<!--        <div class="tp-caption NotGeneric-Title   tp-resizeme" 
+           id="slide-1699-layer-1" 
+           data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+           //data-y="['middle','middle','middle','middle']" 
+             data-voffset="['0','0','-22','-29']" 
+                data-fontsize="['70','70','70','50']"
+          data-lineheight="['42','42','42','30']"
+          data-width="none"
+          data-height="none"
+          data-whitespace="nowrap"
+     
+          data-type="text" 
+          data-responsive_offset="on" 
+
+          data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;","mask":"x:0px;y:100px;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;","ease":"Power2.easeInOut"}]'
+          data-textAlign="['center','center','center','center']"
+          data-paddingtop="[10,10,10,10]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[10,10,10,10]"
+          data-paddingleft="[0,0,0,0]"
+
+          style="z-index: 7; white-space:pre;text-transform:left;"><a href="http://cvpr2017.thecvf.com/">--in conjunction with CVPR 2017,Honolulu,Hawaii,USA,July 21,2017</a></div>
+ -->
+    
+        <!-- LAYER NR. 5 -->
+        <div class="tp-caption NotGeneric-CallToAction rev-btn " 
+           id="slide-1699-layer-7" 
+           data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+           data-y="['middle','middle','middle','middle']" data-voffset="['180','180','80','65']" 
+                data-width="none"
+          data-height="none"
+          data-whitespace="nowrap"
+          onmouseover="this.style.cursor='pointer'" onclick="document.location='#portfolio';"
+          href="page.html"
+          data-type="button" 
+          data-actions='[{"event":"click","action":"#portfolio",  "offset":"0px","delay":""}]'
+          data-responsive_offset="on" 
+          data-responsive="off"
+          data-frames='[{"from":"y:50px;opacity:0;","speed":1500,"to":"o:1;","delay":1250,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bc:rgba(255, 255, 255, 1.00);bw:1px 1px 1px 1px;"}]'
+          data-textAlign="['left','left','left','left']"
+          data-paddingtop="[10,10,10,10]"
+          data-paddingright="[30,30,30,30]"
+          data-paddingbottom="[10,10,10,10]"
+          data-paddingleft="[30,30,30,30]"
+
+          style="z-index: 9; white-space: nowrap;text-transform:left;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">ABOUT US </div>
+      </li>
+    </ul>
+    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> </div>
+    </div><!-- END REVOLUTION SLIDER -->
+</header>
+
+<!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <header class="section-header">
+          <h3 class="section-title" data-text="">Introduction</h3>
+         <!-- <div class="panel panel-default">
+            <div class="panel-body">-->
+              <p style="text-align:justify; white-space: pre-wrap;font-size: 1.2em;">&nbsp;&nbsp;&nbsp;&nbsp;One of the ultimate goals of computer vision techniques is to augment human in a variety of application fields. Developing solutions to comprehensive human-centric visual applications in the wild scenarios, regarded as one of the most fundamental problems in computer vision, could have a crucial impact in many industrial application domains, such as virtual reality, human-computer interaction, human motion analysis,and advanced robotic perceptions. Human-centric understanding including human parsing/detection, pose estimation, relationship detection are often regarded as the very first step for higher-level activity/event recognition and detection. Nonetheless, a large gap seems to exist between what is needed by the real-life applications and what is achievable based on modern computer vision techniques. By taking a further step, more virtual reality and 3D graphic analysis research advances are urgently expected for advanced human-centric analysis. For example, the 2D/3D clothes virtual try-on simulation system that seamlessly fits various clothes into 3D human body shape has attracted numerous commercial interests. The human motion synthesis and prediction can bridge the virtual and real worlds, such as, simulating virtual characters to mimic the human behaviors, empowering robotics more intelligent interactions with human by enabling causal inferences for human activities. The goal of this workshop is to allow researchers from the fields of human-centric understanding and 2D/3D synthesis to present their progress, communication and co-develop novel ideas that potentially shape the future of this area and further advance the performance and applicability of correspondingly built systems in real-world conditions.</p>
+              
+              <p style="text-align:justify; white-space: pre-wrap;font-size: 1.2em;">&nbsp;&nbsp;&nbsp;&nbsp;We will also organize the third large-scale Look Into Person (LIP) challenges which include five competition tasks: the single-person human parsing, the single-person pose estimation, the multi-person human parsing, multi-person video parsing, multi-person pose estimation benchmark, and clothes virtual try-on benchmark. This third LIP challenge mainly extends the second LIP challenge in CVPR 2017 and CVPR 2018 by additionally covering a video human parsing challenge and the 2D/3D clothes virtual try-on benchmark. For the single-person human parsing and pose estimation, we will provide 50,000 images with elaborated pixel-wise annotations with comprehensive 19 semantic human part labels and 2D human poses with 16 dense key points. For the multi-person human parsing competition task, we will also provide another 50000 images of crowded scenes with 19 semantic human part labels. For video-based human parsing, 3000 video shots with 1-2 minutes will be densely annotated with 19 semantic human part labels. For multi-person pose estimation, the dataset contains 25,828 images (ave. 3 persons/image) with 2D human poses with 16 dense key points (each key point has a flag indicating whether it is visible-0/occluded-1/out of image-2) and head & instance bounding boxes . Our new image-based clothes try-on benchmark targets at fitting new in-shop clothes into a person image and generate one try-on video to show different clothes viewpoints on the person. The benchmark will contain around 25,000 front-view pictures and top clothing image pairs for training and 3000 clothes-person pairs for testing. In terms of the quality of image-based virtual try-on, the quantitative performance will be given via a human subjective perceptual study. In terms of the quality of video-based virtual try-on, the benchmark will be evaluated via AMT human evaluation. The images collected from the real-world scenarios contain humans appearing with challenging poses and views, heavily occlusions, various appearances and low-resolutions. Details on the annotated classes and examples of our annotations are available at this link https://vuhcs.github.io/ . This challenge will be released before January, 2019 to enable participants to evaluate their techniques. The challenge is conjunction with <a href="http://cvpr2019.thecvf.com/" style="color: blue;">CVPR 2019</a>, Long Beach, CA.</font> Challenge participants with the most successful and innovative entries will be invited to present on this workshop.
+              </p>
+
+              <!--m_tryon-->
+              <p style="text-align:justify; white-space: pre-wrap;font-size: 1.2em;">&nbsp;&nbsp;&nbsp;&nbsp;Regarding the viability of this workshop, the topic of this workshop is attractive and active. It is very possible that many active researchers would like to attend this workshop (actually the expected number of attendees is 100 from a conservative estimation based on the past publication record on related topics). It is related to yet still clearly different from past workshops as explained below. In addition, we have got confirmation from many renowned professors and researchers in this area and they are either glad to give a keynote speech (as listed in the program) or kindly offer help. We believe this workshop will be a very successful one and it will indeed benefit the progress of this research area significantly.</p>
+
+        <!--    </div>
+          </div>-->
+      <!--
+          <p style="text-align: left; white-space: pre-wrap;font-size: 1.2em;"> <font style="font-weight: bold; white-space: pre-wrap;">Submission:&nbsp</font> The details of each task and submission format as well as the whole LIP dataset are provided on our  <a style="color: blue;"  href="http://hcp.sysu.edu.cn/lip/login.php">evaluation server</a>. The deadline of submission is  <font style="color: blue;"> June 4th, 2017</font>. To guarantee fairness of the LIP challenge of our CVPR'17 workshop, the submitted results can only be seen by the submitters, all of which will be presented on this <a  style="color: blue;"  href="http://hcp.sysu.edu.cn/lip/benchmarks.php">leaderboard</a> after the submission deadline. Welcome to contact us at <font style="color: blue;" >lip17-organizers@googlegroups.com</font>  if you have any questions for the submission.</p> -->
+        </header>
+      </div>
+    </div>
+  </div>
+</section>
+
+<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="90%" color=#987cb9 SIZE=3>
+
+<!-- About -->
+<section id="acceptedpapers" class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <header class="section-header">
+          <h3 class="section-title font-lg" data-text="">Accepted Papers</h3>
+
+          <ul class="lsit-group" style="text-align: left;font-size: 1.2em; padding-left:0 ">
+            <li class="list-group-item">
+              <b>Multi-scale Aggregation R-CNN for 2D Multi-person Pose Estimation.</b>
+Gyeongsik Moon (Seoul National University)*; Ju Yong Chang (Kwangwoon University); Kyoung Mu Lee (Seoul National University)
+
+            </li>
+            <li class="list-group-item">
+              <b>Skepxels: Spatio-temporal Image Representation of Human Skeleton Joints for Action Recognition.</b>
+Jian Liu (The University of Western Australia)*; Naveed Akhtar (The University of Western Australia); Ajmal Mian (University of Western Australia)
+
+            </li>
+            <li class="list-group-item">
+              <b>Exploiting Offset-guided Network for Pose Estimation and Tracking.</b>
+Rui Zhang (Beijing University of Posts and Telecommunications); Zheng Zhu (Institute of Automation, Chinese Academy of Sciences)*; Peng Li (Horizon robotic); Rui Wu (Horizon Robotics); Chaoxu Guo (Institue of Automation, Chinese Academy of Science); Guan Huang (Horizon Robotics); Hailun Xia (Beijing University of Posts and Telecommunications)
+
+            </li>
+            <li class="list-group-item">
+              <b>On the Robustness of Human Pose Estimation.</b>
+Naman Jain (Indian Institute Of Technology Bombay)*; Sahil H Shah (Indian Institute of Technology Bombay); Abhishek Sharma (Gobasco AI Labs); Arjun Jain (Indian Institute Of Technology Bombay)
+
+            </li>
+            <li class="list-group-item">
+              <b>Infant Contact-less Non-Nutritive Sucking Pattern Quantification via Facial Gesture Analysis.</b>
+Xioafei Huang (Northeastern University); Alaina Martens (Northeastern University); Emily Zimmerman (Northeastern University); Sarah Ostadabbas (Northeastern University)*
+
+            </li>
+            <li class="list-group-item">
+              <b>Unpaired Pose Guided Human Image Generation.</b>
+Xu Chen (ETH Zürich)*; Jie Song (ETH Zurich); Otmar Hilliges (ETH Zurich)
+
+            </li>
+            <li class="list-group-item">
+              <b>What Elements are Essential to Recognize Human Actions?</b>
+Yachun Li (Zhejiang University)*; Yong Liu (Zhejiang University); Chi Zhang (Megvii Inc.)
+            </li>
+            <li class="list-group-item">
+              <b>Patch-based 3D Human Pose Refinement.</b>
+Qingfu Wan (Fudan University)*; Weichao Qiu (Johns Hopkins University); Alan Yuille (Johns Hopkins University)
+
+            </li>
+            <li class="list-group-item">
+              <b>Towards Real-time Sign Language Interpreting Robot: Evaluation of Non-manual Components on Recognition Accuracy.</b>
+Arman Sabyrov (Nazarbayev University); Medet Mukushev (Nazarbayev University); Alfarabi Imashev (Nazarbayev University); Kenessary Koishybay (Nazarbayev University); Anara Sandygulova (Nazarbayev University)*; Vadim Kimmelman (University of Bergen)
+
+            </li>
+          </ul>
+        </header>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- About -->
+<section id="winners" class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <header class="section-header">
+          <h3 class="section-title font-lg" data-text="">Challenge Winners</h3>
+
+          <ul class="lsit-group" style="text-align: left;font-size: 1.2em; padding-left:0 ">
+            <li class="list-group-item">
+              <b>Track 1: Single-Person Human Parsing Challenge Winners:<br></b>
+              1st:<br>
+              Peike Li1, 2,  Yunqiu Xu1,  Yi Yang1, 2 <br>
+              1Baidu Research, 2CAI, University of Technology Sydney<br>
+              <br>
+              2nd:<br>
+              Dongdong Yu1, *, Kai Su1, 2, *, Jian Wang1, Kaihui Zhou1 , Xin Geng2 , Changhu Wang1<br>
+              1ByteDance AI Lab, 2Southeast University<br>
+              <br>
+              3rd:<br>
+              Zhijie Zhang1, Wenguan Wang2, Jianbing Shen2, Siyuan Qi3, Yanwei Pang1 , Ling Shao2<br>
+              1Tianjin University, 2Inception Institute of Artificial Intelligence,3UCLA <br>
+
+            </li>
+            <li class="list-group-item">
+              <b>Track 2: Single-Person Human Pose Estimation Challenge Winners:<br></b>
+              1st:<br>
+              Kai Su1, 2, *, Dongdong Yu1, *, Xin Geng2 , Changhu Wang1<br>
+              1ByteDance AI Lab, 2Southeast University<br>
+              <br>
+              1st:<br>
+              Bin Xiao, Yifan Lu, Tang Tang, Hao Zhu, Linfu Wen<br>
+              ByteDance AI Lab<br>
+              <br>
+              3rd:<br>
+              Juan Manuel Pérez Rúa, Kaiyang Zhou, Adrian Bualt, Xiatian Zhu, Tao Xiang, Maja Pantic <br>
+              Samsung AI Center - Cambridge, UK<br>
+              <br>
+              3rd:<br>
+              Hong Hu, Feng Zhang, Hanbin Dai, Huan Luo, LiangBo Zhou, Mao Ye <br>
+              University of Electronic Science and Technology of China(UESTC)<br>
+            </li>
+            <li class="list-group-item">
+              <b>Track 3: Multi-Person Human Parsing Challenge Winners: <br></b>
+              1st: <br>
+              Yunqiu Xu1,  Peike Li1, 2,  Yi Yang1, 2  <br>
+              1Baidu Research, 2CAI, University of Technology Sydney <br>
+               <br>
+              2nd: <br>
+              Meng Zhang1, Xinchen Liu2, Wu Liu2, Anfu Zhou1, Huadong Ma1, Tao Mei2  <br>
+              1Beijing University of Posts and Telecommunications,  <br>
+              2AI Research of JD.com <br>
+              <br>
+              3rd: <br>
+              Bingke Zhu1, 2, Xiaomei Zhan1, 2, Yingying Chen1, 2, Ming Tang1, 2, <br>
+              Hui Li3, Ting Zhang3, Zhaoliang Zhang3, Wenjie Tang3, Jinqiao Wang1, 2  <br>
+              1National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences, <br>
+              2University of Chinese Academy of Sciences, <br>
+              3R&D Center, China National Electronics Import & Export Corporation <br>
+
+            </li>
+            <li class="list-group-item">
+              <b>Track 4: Video Multi-Person Human Parsing Challenge Winners:<br></b>
+              1st:<br>
+              Peike Li1, 2,  Yunqiu Xu1,  Yi Yang1, 2 <br>
+              1Baidu Research, 2CAI, University of Technology Sydney<br>
+              <br>
+              2nd:<br>
+              Jianhua Sun1, *, Dian Shao2, *, Hao-Shu Fang1, Cewu Lu1 <br>
+              1Shanghai Jiao Tong University, 2The Chinese University of Hong Kong<br>
+
+            </li>
+            <li class="list-group-item">
+              <b>Track 5: Image-based Multi-pose Virtual Try-on Challenge Winners:<br></b>
+              1st:<br>
+              Rokkyu Lee, Hyugjae Lee, Minseok Kang, Gunhan Park<br>
+              NHN<br>
+              <br>
+              2nd:<br>
+              Yu Sun, Wu Liu, Qian Bao, Yuhao Cheng, Tao Mei <br>
+              JD AI Human<br>
+
+            </li>
+
+          </ul>
+        </header>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- About -->
+<section id="poster" class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <header class="section-header">
+          <h3 class="section-title font-lg" data-text="">Posters</h3>
+          <ul class="lsit-group" style="text-align: left;font-size: 1.2em; padding-left:0 ">
+            <li class="list-group-item">
+              <b>Location: Note that the workshop posters will be in the Pacific Arena Ballroom (main convention center).<br></b>
+            </li>
+          <ul class="lsit-group" style="text-align: left;font-size: 1.2em; padding-left:0 ">
+            <li class="list-group-item">
+              <b>10:00 - 11:00 AM:<br></b>
+              Poster Numbers: #34 – 38 <br>
+              #34: paper 3,  #35: paper 7, #36 paper 9, <br>
+              #37:paper 11, #38: paper 14<br>
+
+            </li>
+            <li class="list-group-item">
+              <b>3:15 - 4:00 PM<br></b>
+              Poster Numbers: #34 – 38 <br>
+              #34: paper 16,  #35: paper 21, #36 paper 22, <br>
+              #37:paper 26    <br>
+            </li>
+
+
+          </ul>
+        </header>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- About -->
+<section id="about" class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <header class="section-header">
+          <h3 class="section-title font-lg" data-text="">Topics of interest</h3>
+          
+          <h4 style="text-align:left;">&nbsp;&nbsp;The submission are expected to deal with human-centric visual perception and processing tasks which include but are not limited to:</h4>
+          <ul class="lsit-group" style="text-align: left;font-size: 1.2em; padding-left:0 ">
+            <li class="list-group-item">
+              2D/3D Clothes Virtual Try-on System
+            </li>
+            <li class="list-group-item">
+              Human body 3D shape generation and synthesis
+            </li>
+            <li class="list-group-item">
+              Human motion synthesis and prediction
+            </li>
+            <li class="list-group-item">
+              Multi-person parsing and pose estimation
+            </li>
+            <li class="list-group-item">
+              2D/3D human pose estimations from the single RGB/Depth images or videos
+            </li>
+            <li class="list-group-item">
+              Pedestrian detection in the wild scenarios
+            </li>
+            <li class="list-group-item">
+              Human action recognition and trajectory recognition/prediction
+            </li>
+            <li class="list-group-item">
+              Human re-identification in crowd videos and cross-view cameras
+            </li>
+            <li class="list-group-item">
+              3D human body shape estimation and simulation
+            </li>
+            <li class="list-group-item">
+              Human clothing and attribute Recognition
+            </li>
+            <li class="list-group-item">
+              <strong>Person re-identification, face recognition/verification in surveillance videos</strong>
+            </li>
+            <li class="list-group-item">
+              Novel datasets for performance evaluation and/or empirical analyses of existing methods
+            </li>
+            <li class="list-group-item">
+              Advanced applications of human understanding, including autonomous cars, event recognition and prediction, robotic manipulation, indoor navigation, image/video retrieval and virtual reality.
+            </li>
+
+          </ul>
+        </header>
+        
+      </div>      
+    </div>
+  </div>
+</section>
+
+<!-- Call To Action -->
+<!-- <section class="call-to">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <article class="action">
+          <h5>Intrested about us?</h5>
+          <a href="http://sysu-hcp.net/lip" class="btn btn-border" role="button">Learn More</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="90%" color=#987cb9 SIZE=3>
+<!-- Blog -->
+<section id="blog" class="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <header class="section-header">
+          <h3 class="section-title" data-text="" style="text-align: center;">Tentative SCHEDULE</h3>
+        </header>
+        <body>
+          <table class="table table-hover table-condesed">
+            <colgroup>
+              <col width="40%">
+              <col width="60%">
+            </colgroup>
+             <thead style="font-size: 1.3em">
+              <tr  class="blue_bottom">  
+                <th> 
+                  <h4 style="font-weight: bolder;text-align: center;color: #165ac5">Time</h4>
+                </th>
+                <th>
+                  <h4 style="font-weight: bolder;color: #165ac5">Schedule</h4>
+                </th>
+              </tr>
+             </thead>
+            <tbody style="font-size: 1.2em">
+              <tr>
+                <td style="color:red; text-align: center;font-weight:bolder;">Location: 102A</td>
+                <td style="color:red;">Date: Sunday, 16 Jun 2019 from 8:30AM to 17:15PM</td>
+              </tr>
+              <!-- <tr>
+                <td style="text-align: center;font-weight:bolder;"><ul>Conference Country: United States of America</ul></td>
+              </tr> -->
+              <tr>
+               <td style="text-align: center;font-weight:bolder;">08:30-08:40</td>
+               <td>Opening remarks and welcome</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;font-weight:bolder;">08:40-09:00</td>
+                <td>The Look Into Person (LIP) challenge introduction and results</td>
+              </tr>
+              <tr>
+               <td style="text-align: center;font-weight:bolder;">09:00-09:45</td>
+               <td>Oral talk 1: Winner of single-person / multi-person / video human parsing challenge</td>
+              </tr>
+               <tr>
+                <td style="text-align: center;font-weight:bolder;">09:45-10:00</td>
+                <td>Oral talk 2: Winner of pose estimation challenge</strong></td>
+              </tr>
+              <!--<tr>-->
+                <!--<td style="text-align: center;font-weight:bolder;">09:15-10:00</td>-->
+                <!--<td>Invited talk 1: <strong>Alan L. Yuille, Professor, Johns Hopkins University</strong></td>-->
+              <!--</tr>-->
+              <tr>
+               <td style="text-align: center;font-weight:bolder;">10:00-10:30</td>
+               <td>Poster session and coffee break</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;font-weight:bolder;vertical-align: middle;">10:30-11:00</td>
+                <td>Invited talk 1: <strong>Shiry Ginosar, PHD, UC Berkeley</strong></td>
+              </tr>
+              <!--<tr>-->
+                <!--<td style="text-align: center;font-weight:bolder;vertical-align: middle;">10:30-11:15</td>-->
+                <!--<td>Invited talk 2: <strong>Alexei (Alyosha) Efros, Professor, UC Berkeley</strong></td>-->
+              <!--</tr>-->
+              <!-- <tr>
+                <td style="text-align: center;font-weight:bolder;">11:15-11:45</td>
+                <td>Invited talk 3: Alan Yuille, Johns Hopkins University</td>
+              </tr> -->
+              <tr>
+               <td style="text-align: center;font-weight:bolder;">11:00-11:30</td>
+                <td>Invited talk 2 : <strong>Michael Black, Professor, Max Planck Institute</strong></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;font-weight:bolder;">11:30-12:00</td>
+                <td>Oral talk 3: Winner of pose estimation and 2nd place of single person parsing</td>
+              </tr>
+              <!-- <tr>
+               <td style="text-align: center;font-weight:bolder;">11:15-11:30</td>
+               <td>Oral talk 2: Winner of single-person pose estimation challenge</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;font-weight:bolder;">11.30-11.45</td>
+                <td>Oral talk 3: Winner of multi-person human parsing challenge</td>
+              </tr> -->
+              <!-- <tr>
+                <td style="text-align: center;font-weight:bolder;">11:45-12:00</td>
+                <td>Oral talk 4: Winner of video parsing challenge</td>
+              </tr> -->
+              <tr>
+               <td style="text-align: center;font-weight:bolder;">12:00-13:30</td>
+               <td>Lunch</td>
+              </tr>
+              <!-- <tr>
+                <td style="text-align: center;font-weight:bolder;">14:00-14:30</td>
+                <td>Invited talk 3: Trevor Darrell, UC Berkeley</td>
+              </tr> -->
+              <tr>
+                <td style="text-align: center;font-weight:bolder;">13:30-14:00</td>
+                <td>Invited talk 3: <strong>Alex Schwing, Assistant Professor, UIUC</strong></td>
+              </tr>
+              <!-- <tr>
+               <td style="text-align: center;font-weight:bolder;">14:00-14:15</td>
+               <td>Oral talk 2: Winner of single-person(Track 3) & multi-person(Track 4) pose estimation challenge, Speaker: Wu Liu(JD AI Research)</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;font-weight:bolder;">14.15-14.30</td>
+                <td>Oral talk 3: Winner of single-person(Track 1) & multi-person(Track 2 & Track 5) human parsing challenge, Speaker: Yunchao Wei(University of Illinois Urbana-Champaign)</td>
+              </tr> -->
+              <tr>
+                <td style="text-align: center;font-weight:bolder;">14:00-14:30</td>
+                <td>Invited talk 4: <strong>Jianchao Yang, Director, ByteDance AI Lab.</strong></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;font-weight:bolder;">14:30-14:45</td>
+                <td>Oral talk 4: Winner of image-based multi-pose virtual try-on challenge</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;font-weight:bolder;">14:45-16:15</td>
+                <td>Poster session and coffee break</td>
+              </tr>
+              <!--<tr>-->
+               <!--<td style="text-align: center;font-weight:bolder;">15:15-15:45</td>-->
+                <!--<td>Invited talk 6: <strong>Katerina Fragkiadaki, Assistant Professor, CMU</strong></td>-->
+              <!--</tr>-->
+              <tr>
+               <td style="text-align: center;font-weight:bolder;">16:15-16:45</td>
+                <td>Invited talk 5: <strong>Katerina Fragkiadaki, Assistant Professor, CMU</strong></td>
+              </tr>
+              <tr>
+                <td style="text-align: center;font-weight:bolder;">16:45-17:15</td>
+                <td>Awards & Future Plans</td>
+              </tr>
+              <!--<tr>-->
+                <!--<td style="text-align: center;font-weight:bolder;">15:45-16:15</td>-->
+                <!--<td>Invited talk 7: <strong>Chunhua Shen, Professor, University of Adelaide</strong></td>-->
+              <!--</tr>-->
+              <!--<tr>-->
+                <!--<td style="text-align: center;font-weight:bolder;">16:15-16:45</td>-->
+                <!--<td>Awards & Future Plans</td>-->
+              <!--</tr>-->
+            </tbody>
+          </table>
+        </body>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ********************************************************************************************************** -->
+
+<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="90%" color=#987cb9 SIZE=3>
+<!-- call for papers -->
+<section id="papers" class="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <header class="section-header">
+          <h3 class="section-title" data-text="">Call for Papers</h3>
+          <table class="table">
+            <caption style="font-weight: bolder;text-align: center;color: black;font-size:1.3em"><br>Paper Submission<br><br></caption>
+           
+            <tbody style="font-size: 1.2em">
+              <tr>
+                <td style="font-weight: bolder;color: black;vertical-align: middle;">Important Dates</td>
+              </tr>
+              <tr>
+                <!-- <td style="text-align: justify;">
+                Paper reviewing is double-blind. So please avoid providing information that may identify the authors in the acknowledgments (e.g., co-workers and grant IDs) and in the supplemental material (e.g., titles in the movies, or attached papers). Avoid providing links to websites that identify the authors. Please read the example paper <a href="http://cvpr2017.thecvf.com/files/egpaper_for_review.pdf" style="color: blue;font-weight: bold;">egpaper_for_review.pdf</a> for detailed instructions on how to preserve anonymity.
+                </td> -->
+              </tr>
+              <!-- <tr>
+                <td style="font-weight: bolder;color: black;font-size:1.1em;vertical-align: middle;">Requirements</td>
+              </tr> -->
+              <!--<tr>-->
+              <!--<td><ul>Paper Submission Due Date: April 15, 2019, 11:59 PM PST</ul></td>-->
+              <!--</tr>-->
+              <tr>
+                <td><ul>Paper Submission Due Date: <font color="red">May 1, 2019  [11:59 p.m. PST]</font></ul></td>
+              </tr>
+              <!--<tr>-->
+                <!--<td><ul>Review Due: May 1, 2019</ul></td>-->
+              <!--</tr>-->
+              <tr>
+                <td><ul>Notification of Acceptance/Rejection: <font color="red">May 7, 2019  [11:59 p.m. PST]</font></ul></td>
+              </tr>
+              <tr>
+                <td><ul>Camera-Ready Due Date: <font color="red">May 14, 2019  [11:59 p.m. PST]</font></ul></td>
+              </tr>
+              <!--<tr>-->
+                <!--<td><ul>Conference Date: 06/18/2018 </ul></td>-->
+              <!--</tr>-->
+            <!--   <tr>
+                <td style="text-align: justify;">⑤ If your submission has co-authors, please make sure that you enter their email addresses that correspond exactly to their account names (assuming they have created accounts). This will ensure that your co-authors can see your submission when they log in. Co-authors must also have their conflict domains entered.</td>
+              </tr> -->
+              <tr>
+                <td style="font-weight: bolder;color: black;font-size:1.1em;vertical-align: middle;">Format Requirements</td>
+              </tr>
+              <tr>
+                <td>Format: <b> <font color="red">Papers that are at most 4 pages *including references* do not count as a dual submission. Workshop papers that are reviewed and longer than 4 pages do count as a publication, including figures and tables, in the CVPR style. </font></b></ul></td>
+              </tr>
+              <tr>
+                <td><ul>Example submission paper with detailed instructions: <a target="_blank" style="color:blue;" href="http://cvpr2019.thecvf.com/files/egpaper_for_review.pdf">http://cvpr2019.thecvf.com/files/egpaper_for_review.pdf</a></ul></td>
+              </tr>
+              <tr>
+                <td><ul>LaTeX/Word Templates(tar): <a target="_blank" style="color:blue;" href="http://cvpr2019.thecvf.com/files/cvpr2019AuthorKit.tgz">http://cvpr2019.thecvf.com/files/cvpr2019AuthorKit.tgz</a></ul></td>
+              </tr>
+              <tr>
+                <td><ul>LaTeX/Word Templates(zip): <a target="_blank" style="color:blue;" href="http://cvpr2019.thecvf.com/files/cvpr2019AuthorKit.zip">http://cvpr2019.thecvf.com/files/cvpr2019AuthorKit.zip</a></ul></td>
+              </tr>
+              <tr>
+                <td><ul>A complete paper should be submitted using the above templates, which are blind-submission review-formatted templates. The length should match that intended for final publication. </ul></td>
+              </tr>
+
+
+              <tr>
+                <td style="font-weight: bolder;color: black;font-size:1.1em;vertical-align: middle;">Submission Details</td>
+              </tr>
+              <tr>
+                <td><ul>Paper Submission Site: <a target="_blank" style="color:blue;" href="https://cmt3.research.microsoft.com/VUHCS2019">https://cmt3.research.microsoft.com/VUHCS2019</a></ul></td>
+              </tr>
+              <tr>
+                <td><ul>Conference City: Long Beach, CA</ul></td>
+              </tr>
+              <tr>
+                <td><ul>Conference Country: United States of America</ul></td>
+              </tr>
+
+              <!-- <tr>
+                <td style="font-weight: bolder;color: black;font-size:1.1em;vertical-align: middle;">Others</td>
+              </tr> -->
+              <!-- <tr>
+                <td style="text-align: justify;">All the papers must be submitted in IEEE format using the <a href="http://cvpr2017.thecvf.com/files/cvpr2017AuthorKit.zip" style="color: blue;font-weight: bold;">templates</a> provided. Submitted papers should not have been published, accepted or under review elsewhere.</td>
+              </tr>
+              <tr>
+                <td style="text-align: justify;">For more detailed instructions for paper submission, please consult <a href="http://cvpr2018.thecvf.com/submission/main_conference/author_guidelines" style="color: blue;font-weight: bold;">CVPR 2018</a> web page.</td>
+              </tr>
+              <tr>
+                <td >All the papers should be submitted at our <a href="https://cmt3.research.microsoft.com/VUHCS2017" style="color: blue;font-weight: bold;text-decoration: underline;">CMT site</a>.</td>
+              </tr> -->
+            </tbody>
+          </table>
+        </header>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="challenge" class="portfolio">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <header class="section-header">
+          <h3 class="section-title" data-text="">Challenges</h3>
+          <table class="table">
+            <caption style="font-weight: bolder;text-align: center;color: black;font-size:1.3em"><br><br>Challenge Submission<br><br></caption>
+           
+            <thead style="font-size: 1.2em">
+              <tr>
+                <td style="font-weight: bolder;color: black;vertical-align: middle;">Important Dates</td>
+              </tr>
+            </thead>
+            <tbody style="font-size: 1.3em ">
+
+            </tr>
+              <tr>
+              <!-- <td><ul> <font style="font-weight: bold;">Track1~3</font> Due Date (mm/dd/yyyy): 06/04/2018 23:59 UTC/GMT+0</ul></td> -->
+                <td><ul>Challenge Submission Due Date:<s>May 15, 2019, 11:59 PM GMT</s>
+                  <font color="red">Extend to June 2, 2019, 11:59 PM GMT</font>
+                  <tr>Our new website is: </tr><br>
+                  <a href="http://47.100.21.47:9999/index.php"  target="_blank"> http://47.100.21.47:9999/index.php </a>
+
+                  <br></ul></td>
+              </tr>
+              <!-- <tr>
+              <td><ul> <font style="font-weight: bold;">Track4~5</font> Due Date (mm/dd/yyyy): 05/31/2018 23:59 UTC/GMT+0<br><br></ul></td>
+              </tr> -->
+              
+            </tbody>
+          </table>
+          <div class="list-group">
+            <a href="http://sysu-hcp.net/lip"  target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading" style="font-weight: bolder;">
+                Track1
+              </h4>
+              <p class="list-group-item-text">
+                Look Into Person: Single-person Human Parsing
+              </p>
+            </a>
+              <a href="http://sysu-hcp.net/lip"  target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading" style="font-weight: bolder;">
+                Track2
+              </h4>
+              <p class="list-group-item-text">
+                Look Into Person: Single-person Human Pose Estimation
+              </p>
+            </a>
+              <a href="http://sysu-hcp.net/lip"  target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading" style="font-weight: bolder;">
+                Track3
+              </h4>
+              <p class="list-group-item-text">
+                Look Into Person: Multi-people Human Parsing
+              </p>
+            </a>
+            <a href="http://sysu-hcp.net/lip" target="_blank"  class="list-group-item">
+              <h4 class="list-group-item-heading" style="font-weight: bolder;">
+                Track4
+              </h4>
+              <p class="list-group-item-text">
+                Look Into Person: Video Multi-Person Human Parsing
+              </p>
+            </a>
+            <a href="http://sysu-hcp.net/lip"  target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading" style="font-weight: bolder;">
+                Track5
+              </h4>
+              <p class="list-group-item-text" >
+                Look Into Person: Image-based Multi-pose Virtual Try-on
+              </p>
+            </a>
+            <!-- <a href="https://lv-mhp.github.io/" target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading" style="font-weight: bolder;">
+                Track4
+              </h4>
+              <p class="list-group-item-text">
+                Pose Estimation
+              </p>
+            </a> -->
+            <!--<a href="https://lv-mhp.github.io/" target="_blank" class="list-group-item">-->
+              <!--<h4 class="list-group-item-heading" style="font-weight: bolder;">-->
+                <!--Track4-->
+              <!--</h4>-->
+              <!--<p class="list-group-item-text">-->
+                <!--Look Into Person: Multi-Human Pose Estimation Challenge(25403 images)-->
+              <!--</p>-->
+            <!--</a>-->
+            <!--<a href="https://lv-mhp.github.io/" target="_blank" class="list-group-item">-->
+              <!--<h4 class="list-group-item-heading" style="font-weight: bolder;">-->
+                <!--Track5-->
+              <!--</h4>-->
+              <!--<p class="list-group-item-text">-->
+                <!--Look Into Person: Fine-Grained Multi-Human Human Parsing Challenge(25403 images)-->
+              <!--</p>-->
+            <!--</a>-->
+            <!--<a class="list-group-item">-->
+              <!--<div class="row">-->
+                  <!--<div class="col-md-6 col-xs-6  col-md-offset-1 " href="http://sysu-hcp.net/lip"  target="_blank">-->
+                    <!--<img src="img/SYN.png" class="list-group-item-heading" style="padding-top: 2em" >-->
+                  <!--</div>-->
+                  <!--&lt;!&ndash;<div class="col-md-2 col-xs-6 " href="https://lv-mhp.github.io/" target="_blank">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<img src="img/FENGG.png" class="list-group-item-heading" style="padding-bottom: 2em " >&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+              <!--</div> -->
+            </a>   
+          </div>
+        </header>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ********************************************************************************************************** -->
+<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="90%" color=#987cb9 SIZE=3>
+<!-- Team -->
+<section id="team" class="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <header class="section-header">
+          <h3 class="section-title" data-text="">Main Organizers</h3>
+        </header>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-sm-4 col-md-2 col-md-offset-2">
+            <img src="img/team/xiaodan3.jpg" class="img-circle img-responsive img-thumbnail center-block" alt="img">
+          <h5 class="member-name"  data-text="Associate Professor, Sun Yat-sen University"><a href="https://lemondan.github.io" target="_blank" style="white-space: pre-wrap;">Xiaodan Liang</a><br><span class="fa-icon-envelope" style="white-space: pre-wrap;"><font size="-1" style="font-weight: normal;text-transform: lowercase;">&nbsp;xdliang328@gmail.com</font></span></h5>
+      </div>
+      <div class="col-sm-4 col-md-2 col-md-offset-1">
+          <img src="img/team/haoye.jpg" class="img-circle img-responsive img-thumbnail center-block" alt="img">
+        <h5 class="member-name"  data-text="Ph.D. candidate, Sun Yat-sen University"><a href="http://www.scholat.com/donghaoye" target="_blank" style="white-space: pre-wrap;">Haoye Dong</a><br><span class="fa-icon-envelope" style="white-space: pre-wrap;"><font size="-1" style="font-weight: normal;text-transform: lowercase;">&nbsp;donghy7@mail2.sysu.edu.cn</font></span></h5>
+      </div>
+      <div class="col-sm-4 col-md-2 col-md-offset-1">
+            <img src="img/team/yunchao.jpg" class="img-circle img-responsive img-thumbnail center-block" alt="img">
+          <h5 class="member-name"   data-text="Postdoctoral Researcher, University of Illinois Urbana-Champaign"><a href="https://weiyc.github.io" target="_blank" style="white-space: pre-wrap;">Yunchao Wei</a><br><span class="fa-icon-envelope" style="white-space: pre-wrap;"><font size="-1" style="font-weight: normal;text-transform: lowercase;">&nbsp;wychao1987@gmail.com</font></span></h5>
+        </div>
+    </div>
+
+      <div class="col-sm-4 col-md-2 col-md-offset-2">
+            <img src="img/team/XIAOHUI.png" class="img-circle img-responsive img-thumbnail center-block" alt="img">
+          <h5 class="member-name"  data-text="Research Scientist, ByteDance AI Lab"><a href="http://users.eecs.northwestern.edu/~xsh835" target="_blank" style="white-space: pre-wrap;">Xiaohui Shen</a><br><span class="fa-icon-envelope" style="white-space: pre-wrap;"><font size="-1" style="font-weight: normal;text-transform: lowercase;">&nbsp;shenxiaohui@bytedance.com</font></span></h5>
+      </div>
+      <div class="col-sm-4 col-md-2 col-md-offset-1">
+          <img src="img/team/Jiashi Feng.png" class="img-circle img-responsive img-thumbnail center-block" alt="img">
+        <h5 class="member-name"  data-text="Assistant Professor, National University of Singapore"><a href="https://sites.google.com/site/jshfeng/" style="white-space: pre-wrap;">Jiashi Feng</a><br><span class="fa-icon-envelope" style="white-space: pre-wrap;"><font size="-1" style="font-weight: normal;text-transform: lowercase;">&nbsp;elefjia@nus.edu.sg</font></span></h5>
+      </div>
+      <div class="col-sm-4 col-md-2 col-md-offset-1">
+            <img src="img/team/songchun.jpg" class="img-circle img-responsive img-thumbnail center-block" alt="img">
+          <h5 class="member-name"   data-text="Professor, University of California, Los Angeles"><a href="http://www.stat.ucla.edu/~sczhu" target="_blank" style="white-space: pre-wrap;">Song-Chun Zhu</a><br><span class="fa-icon-envelope" style="white-space: pre-wrap;"><font size="-1" style="font-weight: normal;text-transform: lowercase;">&nbsp;sczhu@stat.ucla.edu</font></span></h5>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="90%" color=#987cb9 SIZE=3>
+<!-- Blog -->
+<section id="association" class="association">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <header class="section-header">
+          <h3 class="section-title" data-text="">Contact</h3>
+          <p style="text-align: center;font-size: 1.2em;white-space: pre-wrap">Please feel free to send any question or comments to: <br><font color=#0E04F5>donghy7 AT mail2.sysu.edu.cn, xdliang328 AT gmail.com </font>
+          </p>
+        <!--  <p style="text-align: left;font-size: 1.2em;white-space: pre-wrap; margin-top: -50px">
+            &nbsp;&nbsp;&nbsp;&nbsp;You are also welcomed to discuss with us in our googlegroup:<font style="color: blue">lip17-organizers@googlegroups.com</font>
+          </p>-->
+    
+        </header>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 center-block" data-animation="zoomIn" data-animation-delay="01">
+        <h6><a href="http://sysu-hcp.net/lip">L.I.P</a></h6>
+        
+<!--        <ul class="social-list">
+          <li class="fa-icon-facebook"></li>
+          <li class="fa-icon-twitter"></li>
+          <li class="fa-icon-pinterest"></li>
+          <li class="fa-icon-flickr"></li>
+          <li class="fa-icon-dribbble"></li>
+          <li class="fa-icon-behance"></li>
+        </ul> -->
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/vendor/fastclick.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/vendor/jquery.appear.js"></script>                  <!-- jQuery Appear -->
+<script src="js/vendor/jquery.easing.1.3.js"></script>              <!-- jQuery Easing -->
+<script src="js/vendor/imagesloaded.pkgd.min.js"></script>          <!-- Imagesloaded -->
+<script src="js/vendor/isotope.pkgd.min.js"></script>               <!-- Isotope -->
+<script src="js/vendor/jquery.countTo.js"></script>                 <!-- Count To -->
+<script src="js/vendor/jquery.easypiechart.min.js"></script>        <!-- easyPieChart -->
+<script src="js/vendor/jquery.magnific-popup.min.js"></script>      <!-- Magnific Popup -->
+<script src="js/vendor/owl.carousel.min.js"></script>               <!-- Owl Carousel -->
+<script src="js/vendor/jquery.validate.min.js"></script>            <!-- jQuery Validate -->
+<script src="js/contact.js"></script>
+
+<script type="text/javascript" src="js/sliders/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="js/sliders/jquery.themepunch.revolution.min.js"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->    
+<script type="text/javascript" src="js/sliders/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="js/sliders/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="js/sliders/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="js/sliders/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="js/sliders/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="js/sliders/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="js/sliders/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="js/sliders/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="js/sliders/revolution.extension.video.min.js"></script>
+
+<script src="js/main.js"></script>                                  <!-- Custom jQuery -->
+<script src="js/functions.js"></script>                             <!-- Revolution Functions -->
+
+</body>
+</html>
