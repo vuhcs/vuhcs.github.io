@@ -442,7 +442,14 @@
               </tr> -->
               <tr>
                 <td style="text-align: center;font-weight:bolder;vertical-align: middle;">16:10-16:50</td>
-                <td>Invited talk 4: <b>Jun-Yan Zhu, Assistant Professor, Carnegie Mellon University</b></td>
+                <td >Invited talk 4: <b>Jun-Yan Zhu, Assistant Professor, Carnegie Mellon University</b><br>Talk title: <b>Visualizing and Understanding GANs</b>
+                  <div><a id="talk4" style="color: #165ac5" onClick="tr_none('talk4');">Show Abstract</a></div>
+                </td>
+              </tr>
+
+              <tr style="display:none;" class="talk4">
+                <td style="text-align: center;vertical-align: middle;"></td>
+                <td>Abstract: Generative Adversarial Networks (GANs) have recently achieved impressive results for a wide range of real-world applications, and many GAN variants have emerged with improvements in sample quality and training stability. However, they have not been well visualized or understood. How does a GAN represent our visual world internally? What causes the artifacts in GAN results? How do architectural choices affect GAN learning? Answering such questions could enable us to develop new insights and better models. In this talk, I will present several analytic tools to visualize and understand GANs at the unit-, object-, and scene-level. Collectively, these tools highlight what a GAN has learned and has not. We show several practical applications enabled by our method, from comparing internal representations across different layers, models, and datasets, to improving GANs by locating and removing artifact-causing units, to interactively manipulating objects in a real image.</td>
               </tr>
               <!--<tr>-->
                 <!--<td style="text-align: center;font-weight:bolder;vertical-align: middle;">10:30-11:15</td>-->
@@ -1053,6 +1060,26 @@
 
 <script src="js/main.js"></script>                                  <!-- Custom jQuery -->
 <script src="js/functions.js"></script>                             <!-- Revolution Functions -->
+
+<script language="javascript">
+  function tr_none(theclass){
+    var allPageTags = new Array();
+    var allPageTags = document.getElementsByTagName("tr");
+    var hrefTag = document.getElementById(theclass)
+    for (i = 0; i<allPageTags.length; i++) {
+      if (allPageTags[i].className == theclass) {
+        var obj = allPageTags[i];
+        if (obj.style.display == "none") {
+          obj.style.display = "";
+          hrefTag.innerHTML = "Hide Abstract"
+        } else {
+          obj.style.display = "none";
+          hrefTag.innerHTML = "Show Abstract"
+        }
+      }
+    }
+  }
+</script>
 
 </body>
 </html>
